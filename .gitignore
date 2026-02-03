@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Node
+node_modules/
+build/
+
+# Environment
+.env
+*.env
+!.env.example
+
+# Generated files
+static/images/*.jpg
+static/images/*.png
+static/desc/*.md
+!static/images/.gitkeep
+!static/desc/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Database
+*.db
+data/
